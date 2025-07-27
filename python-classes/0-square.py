@@ -2,11 +2,10 @@
 # 0-square
 # BEHAVA Killian <11841@holbertonstudents.com>
 """
-class square
+New class: square
 """
-
-
 class Square:
-    """Create an empty square 
+    """
+    Create an empty square 
     """
     pass
