@@ -1,2 +1,2 @@
 -- GET TABLE INFORMATIONS
-SELECT * FROM information_schema.first_table
+SHOW CREATE TABLE first_table;
