@@ -35,8 +35,8 @@ class Square:
         return self.__position
 
     @position.setter
-    """Setting the position of the square"""
     def position(self, value):
+        """Setting the position of the square"""
         if (
             not type(value) is or
             not len(value) == 2 or
