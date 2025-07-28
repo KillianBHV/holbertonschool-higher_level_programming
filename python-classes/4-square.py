@@ -12,15 +12,15 @@ class Square:
         else:
             self.__size = size
 
-    """This is a setter for the private attribute __size"""
+    @size.setter
     def size(self, value):
         if not type(value) is int:
             raise TypeError("size must be an integer")
         elif value < 0:
             raise ValueError("size must be >= 0")
         else:
-            return self.__size
+            self.__size = value
 
-    """Get the area of a square"""
     def area(self):
+    """Return the area of the square"""
         return self.__size * self.__size
