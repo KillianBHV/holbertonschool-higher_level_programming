@@ -14,7 +14,7 @@ class Square:
 
     """This is a setter for the private attribute __size"""
     def size(self, value):
-        if not value is int:
+        if not type(value) is int:
             raise TypeError("size must be an integer")
         elif if value < 0:
             raise ValueError("size must be >= 0")
