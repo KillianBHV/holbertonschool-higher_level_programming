@@ -38,7 +38,7 @@ class Square:
     def position(self, value):
         """Setting the position of the square"""
         if (
-            not type(value) is int or
+            not type(value) is tuple or
             not len(value) == 2 or
             not all(type(num) is int for num in value) or
             not all(num >= 0 for num in value)
