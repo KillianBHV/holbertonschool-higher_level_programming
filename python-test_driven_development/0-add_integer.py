@@ -3,7 +3,16 @@
 
 
 def add_integer(a, b=98):
-    """Add two integers a and b"""
+    """
+    Get the sum of two integers a and b
+
+    :param a: int
+    :param b: int
+    :return: int
+
+    >>> add_integer(3, 97)
+    100
+    """
     if not type(a) is int and not type(a) is float:
         raise TypeError("a must be an integer")
     elif not type(b) is int and not type(b) is float:
